@@ -1,5 +1,4 @@
 import { IsString, Matches, MaxLength, Min, MinLength } from "class-validator";
-import { Unique } from "typeorm";
 
 export class AuthCredentialsDto {
   @IsString()
